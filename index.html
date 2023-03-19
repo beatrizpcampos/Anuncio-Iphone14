@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo-iphone" src="./assets/logo.png" alt="logo-iphone">
+
+        <ul>
+            <li>Mac</li>
+            <li>iPhone</li>
+            <li>iPad</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <section class="section-1">
+
+            <h1>Iphone 14</h1>
+            <h2>Tão poderoso. Tão ao seu alcance.</h2>
+            <p>Em dois tamanhos perfeitos. Agora com toque amarelo</p>
+            <h3>A partir de R$ 633,25/mes ou R$ 7.599,00 á vista</h3>
+            <button>Comprar</button>
+            <P class="escolha-cor">Escolha a sua cor:</P>
+
+            <div class="cores">
+                <button onclick="trocaCor('#81A5C4'); trocaImg('./assets/iphone-azul.png')" class="azul troca-cor"></button>
+                <button onclick="trocaCor('#F7DA47'); trocaImg('./assets/iphone-amarelo.png')" class="amarelo troca-cor"></button>
+                <button onclick="trocaCor('#C1C1C1'); trocaImg('./assets/iphone-branco.png')" class="branco troca-cor"></button>
+                <button onclick="trocaCor('#000000'); trocaImg('./assets/iphone-preto.png')" class="preto troca-cor"></button>
+                <button onclick="trocaCor('#b50012'); trocaImg('./assets/iphone-vermelho.png')" class="vermelho troca-cor"></button>
+                <button onclick="trocaCor('#EDE7F1'); trocaImg('./assets/iphone-roxo.png')" class="roxo troca-cor"></button>
+            </div>
+
+        </section>
+
+        <section class="section-2">
+            <div class="circulo"></div>
+            <img class="iphone-img" src="./assets/iphone-azul.png" alt="Iphone">
+        </section>
+    </div>
+</body>
+</html>
